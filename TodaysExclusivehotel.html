@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <link rel="stylesheet" href="TodaysExclusiveHotel.css">
+  <title>Blurred Background Popup</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="main-container">
+      <div class="header">
+        <img src="logo/TEHlogo.png" class="logo">
+        <h1>Today's Exclusive Hotel</h1>
+        <ul>
+          <li><a href="home">HOME</a></li>
+          <li><a href="home">ROOM</a></li>
+          <li><a href="home">GALLERY</a></li>
+          <li><a href="home">BLOG</a></li>
+          <li><a href="home">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="gallery">
+        <div class="gallery-slider" id="g-slider">
+      <img class="gallery-image" src="Images/Front.jpeg" alt="front">
+      <img class="gallery-image" src="Images/Poolbar.jpeg" alt="Poolbar">
+      <img class="gallery-image" src="Images/Room1.jpeg" alt="Room1">
+      <img class="gallery-image" src="Images/Restaurant.jpeg" alt="Restaurant">
+      <img class="gallery-image" src="Images/Room2.jpeg" alt="Room2">
+      <img class="gallery-image" src="Images/Hall.jpeg" alt="Hall">
+      <img class="gallery-image" src="Images/FrontBar.jpeg" alt="FrontBar">
+      </div>
+      <i id="prev" class="fa-solid fa-angles-left btnEl prev"></i>
+      <i id="next" class="fa-solid fa-angles-right btnEl next"></i>
+      </div>
+    <div class="booking">
+        <ul>
+          <li>ARRIVAL DATE</li>
+          <input type="text" class="arrival-date" placeholder="Arrival Date">
+        </ul>
+        <ul>
+          <li>DEPARTURE DATE</li>
+          <input type="text" class="departure-date" placeholder="Dept Date">
+        </ul>
+        <ul>
+          <li>ADULTS</li>
+          <select class="adult-section">
+            <option selected>CHOOSE ADULT</option>
+            <option>1 ADULT</option>
+            <option>2 ADULT</option>
+            <option>3 ADULT</option>
+          </select>
+        </ul>
+        <ul>
+          <li>CHILDREN</li>
+          <select class="children-section">
+            <option selected>0 CHILD</option>
+            <option>1 CHILD</option>
+            <option>2 CHILDREN</option>
+            <option>3 CHILDREN</option>
+          </select>
+        </ul>
+        <div class="avail">
+          <button class="availability-btn">CHECK AVAILABILITY</button>
+        </div>
+    </div>
+  </div>
+  <div class="body-container">
+    <h1>Welcome to <span class="hotel-name">Today's Exclusive Hotel</span><hr class="underline1">
+    <hr class="underline2">
+    <hr class="underline3">
+  </h1>
+  </div>
+  <div class="about-img">
+    <img src="Images/Poolbar.jpeg" alt="about image">
+  </div>
+  <div class="about-desc">
+    <p class="about-us">ABOUT US</p>
+    <h3>The Most Preferred Hotel in Alimosho</h3>
+    <p class="about-info">Today's Exclusive Hotel is the most preferred hotel in West Africa, and it is all about the right mix! Located in the heart of Victoria Island, we offer our clients a perfect blend of business & leisure amenities with dining and recreational options delicately infused in one amazing space. We crown all these with services that meet the highest international standards.
+    </p>
+    <p class="about-info">
+      Overlooking the new Today's Exclusive Hotel, it is just a 10-minute drive to the City Centre and only 20minutes away from the Airport.
+    </p>
+    <p class="about-info">Our hotels are designed for your comfort and convenience. Your security is our primary concern and you will find our customer care second to none.</p>
+    <button class="learnmore-btn">Learn more</button>
+  </div>
+  <div class="gallerymain-container">
+    <div class="gallery-body">
+    <div class="gallerybody-container">
+      <h1>OUR <span class="gallery-name">GALLERY</span><hr class="underline1">
+        <hr class="underline2">
+        <hr class="underline3">
+      </h1>
+    </div>
+  </div>
+  <div class="everything-gallery">
+    <div class="main-gallery">
+      <img src="Images/mainfrontgallery.jpeg" alt="front">
+      </div>
+      <div class="main-gallery">
+      <img src="Images/Poolbar.jpeg" alt="Poolbar">
+      </div>
+      <div class="main-gallery">
+      <img src="Images/Room1.jpeg" alt="Room1">
+      </div>
+      <div class="main-gallery">
+      <img src="Images/Restaurant.jpeg" alt="Restaurant">
+       </div>
+  </div>
+    <div class="gallery-btns">
+      <button class="prev-btn">Previous</button>
+      <button class="next-btn">Next</button
+    </div>
+  </div>
+  
+    <div class="contactus-container">
+
+       <div class="contact-us">
+      <h1>Contact <span class="span-contact">us</span><hr class="underline1">
+        <hr class="underline2">
+        <hr class="underline3">
+      </h1>
+    </div>
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m24!1m8!1m3!1d31711.720666652418!2d3.2879109!3d6.526094!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x103b8f57f56c1c61%3A0xcab40a1e3cb9e04a!2sToday&#39;s%20Exclusive%20Hotel%2C%20Egbe%20Road%2C%20Orioke%20Street%2C%20Lagos!3m2!1d6.539498!2d3.2910022999999997!4m5!1s0x103b8f57f56c1c61%3A0xcab40a1e3cb9e04a!2s188%20Egbe%20Rd%2C%20Orioke%20St%2C%20Ejigbo%2C%20Lagos%20102214%2C%20Lagos!3m2!1d6.539498!2d3.2910022999999997!5e0!3m2!1sen!2sng!4v1753740554203!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="anyquest">
+      <h1><span class="if">If you have </span><span class="any">any </span><span class="question">question </span><span class="dont">don't hesitate</span> <span class="us">to contact us.</span></h1>
+    </div>
+    <div class="contact-info">
+      <p class="info">INFORMATION</p>
+      <div>
+        <div class="address-info"><i class="fa-solid fa-location-dot locate"></i> Address</div>
+        <div class="address-desc">
+          188, Ikotun Egbe Road, Orioke Bustop, Ejigbo, Lagos State
+        </div>
+      </div>
+        <div class="phone-info"><i class="fa-solid fa-phone call"></i> Phone / Fax</div>
+        <div class="phone-desc">
+          International Calls: +2349162311464, +23409047044702
+          National Calls: 09162311464, 09047044702
+        </div>
+        <div class="email-info"><i class="fa-solid fa-envelope mail"></i> E-mail</div>
+        <div class="email-desc">
+          todayexclusivehotel@gmail.com
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="git-sms">
+      <p class="git">GET  IN TOUCH</p>
+      <div class="git-container">
+        <div class="input-email">
+          <input type="text" class="email" placeholder="Enter your email address">
+        </div>
+        <div class="input-name">
+          <input type="text" class="name" placeholder="Enter your name">
+        </div>
+        <div class="input-msg">
+          <textarea cols="70" class="msg" rows="5" placeholder="Enter your message"></textarea>
+        </div>
+        <div class="mandatory">* All fields are mandatory.</div>
+      </div>
+      <div class="send-smsbtn">
+        <button class="sms-btn">SEND MESSAGE</button>
+      </div>
+    </div>
+    </div>
+   
+    <div class="footer">
+      <div class="inner-footer">
+        <div class="footer-nav">
+          <ul class="footnav">
+            <li><a href="about" class="about">ABOUT</a></li>
+            <li><a href="gallery" class="gallery">GALLERY</a></li>
+            <li><a href="our-rooms" class="ourrooms">OUR ROOMS</a></li>
+            <li><a href="our-halls" class="">OUR HALLS</a></li>
+            <li><a href="our-events" class="">OUR EVENTS</a></li>
+            <li><a href="vision-mission" class="">OUR VISION & MISSION</a></li>
+            <li><a href="reach-out" class="">CONTACT US</a></li>
+            <li><a href="t-c" class="">TERMS & CONDITIONS</a></li>
+          </ul>
+        </div>
+        <div class="logo-address">
+          <div class="footer-logo">
+            <img src="logo/withBG.jpeg">
+          </div>
+          <div class="footer-address">
+            <p class="address"><i class="fa-solid fa-location-dot footer-locate"></i> 188, Ikotun Egbe Road, Orioke Bustop, Ejigbo, Lagos State</p>
+            <p class="calls"><i class="fa-solid fa-phone footer-call"></i> International Calls: +2349162311464, +23409047044702, 
+              National Calls: 09162311464, 09047044702</p>
+            <p class="email"><i class="fa-solid fa-envelope footer-mail"></i> todayexclusivehotel@gmail.com</p>
+          </div>
+        </div>
+        <div class="footer-line">
+          <hr class="line">
+        </div>
+        <div class="social-media">
+          <ul>
+            <li><a href="www.facebook.com"><i class="fa-brands fa-facebook-f facebook"></i></a></li>
+            <li><a href="www.instagram.com"><i class="fa-brands fa-square-instagram instagram"></i></a></li>
+            <li><a href="www.twitter.com"><i class="fa-brands fa-x-twitter twitter"></i></a></li>
+            <li><a href="www.pinterest.com"><i class="fa-brands fa-pinterest pinterest"></i></a></li>
+          </ul>
+        </div>
+        <div class="newsletter">
+          <h3>NEWSLETTER</h3>
+          <p>Subscribe to our email news letter to receive updates and news.</p>
+          <input type="text" class="email" placeholder="Email address">
+          <button class="send"><i class="fa-regular fa-paper-plane send-icon"></i></button>
+        </div>
+        <div class="the-company">
+          <button>The Company</button>
+          <p>Copyright <i class="fa-regular fa-copyright"></i> 2023 Today's Exclusive Hotel Nig. Ltd.</p>
+        </div>
+      </div>
+      </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js" integrity="sha512-LykfAgCT/4tCDmqnyPL+sfTeIG1KmLsLJCyOrZQazkQsbMVD2fENXyFjzKltMftRkSmz3Vb6Zi+HzusdQ9fykA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script defer src="TodaysExclusiveHotel.js"></script>
+</html>
+
+
+<!-- <img class="gallerybody-image" src="Images/Room2.jpeg" alt="Room2">
+    <img class="gallerybody-image" src="Images/Hall.jpeg" alt="Hall">
+    <img class="gallerybody-image" src="Images/FrontBar.jpeg" alt="FrontBar"> -->
